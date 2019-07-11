@@ -1,0 +1,26 @@
+body {
+  text-align:center;
+  font-family:Roboto;
+} 
+
+h1 {
+  color:#404040;
+}
+
+h2 {
+  margin-top:0px;
+}
+
+/* What if you played with these values?! */
+img {
+  height:200px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.2);
+  padding: 2px;
+  margin: 10px;
+}
+
+
+.pet {
+    display:inline-block;
+}
