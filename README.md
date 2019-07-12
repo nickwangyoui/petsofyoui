@@ -14,9 +14,9 @@ It's not very nice looking, but that's okay. It was a project that @philhawkswor
 
 Well that won't do. If your little friend is missing from this site please submit a pull request.
 
-Step 1: [Clone this repo] (https://help.github.com/en/articles/cloning-a-repository)
+Step 1: [Clone this repo](https://help.github.com/en/articles/cloning-a-repository)
 
-Step 2: [Make a branch!] (https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository)
+Step 2: [Make a branch!](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository)
 
 Step 3: Add your pet picture (with name of pet) to the `/images` folder
 
@@ -28,6 +28,6 @@ Step 4: Add the Snippet below to the index.html file
 </div>
 ```
 
-Step 5: [Commit and open a PR :) ] (https://help.github.com/en/articles/creating-a-pull-request)
+Step 5: [Commit and open a PR :) ](https://help.github.com/en/articles/creating-a-pull-request)
 
 Step 6: Wait for someone to approve your request and see it live [here!](http://nickwangyoui.github.io/petsofyoui)
