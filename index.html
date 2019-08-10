@@ -16,53 +16,36 @@
     <div>
       <img src="images/youidogday.png" alt="RandomCollage" />
     </div>
-    <div class="pet">
-      <img src="images/molly.jpg" alt="Molly" />
-      <h2>Molly</h2>
-    </div>
-    <div class="pet">
-      <img src="images/rocky.jpg" alt="Rocky" />
-      <h2>Rocky</h2>
-    </div>
-    <div class="pet">
-      <img src="images/Kuzco.jpg" alt="Kuzco" />
-      <h2>Kuzco</h2>
-    </div>
-    <div class="pet">
-      <img src="images/meeka.jpg" alt="Meeka" />
-      <h2>Meeka</h2>
-    </div>
-    <div class="pet">
-      <img src="images/ergun.jpg" alt="Ergun" />
-      <h2>Ergun</h2>
-    </div>
-    <div class="pet">
-      <img src="images/Nermal.JPG" alt="Nermal" />
-      <h2>Nermal</h2>
-    </div>
-    <div class="pet">
-      <img src="images/Chutney.jpg" alt="Chutney" />
-      <h2>Chutney</h2>
-    </div>
-    <div class="pet">
-      <img src="images/Sampson.jpg" alt="Sampson" />
-      <h2>Sampson</h2>
-    </div>
-    <div class="pet">
-      <img src="images/Wellington.png" alt="Wellington" />
-      <h2>Wellington</h2>
-    </div>
-    <div class="pet">
-      <img src="images/Cosmic.png" alt="Cosmic" />
-      <h2>Cosmic</h2>
-    </div>
-    <div class="pet">
-      <img src="images/Dale.jpg" alt="Dale" />
-      <h2>Delaney</h2>
-    </div>
-     <div class="pet">
-      <img src="images/Kisa.JPG" alt="Kisa" />
-      <h2>Kisa</h2>
+    <div id='pets'\>
     </div>
   </body>
+  <script>
+    const Kisa = {Name: "Kisa", url: "images/Kisa.JPG"};
+    const Dale = {Name: "Dale", url: "images/Dale.jpg"};
+    const Cosmic = {Name: "Cosmic", url: "images/Cosmic.png"};
+    const Wellington = {Name: "Wellington", url: "images/Wellington.png"};
+    const Sampson = {Name: "Sampson", url: "images/Sampson.jpg"};
+    const Chutney = {Name: "Chutney", url: "images/Chutney.jpg"};
+    const Nermal = {Name: "Nermal", url: "images/Nermal.JPG"};
+    const Ergun = {Name: "Ergun", url: "images/ergun.jpg"};
+    const Meeka = {Name: "Meeka", url: "images/meeka.jpg"};
+    const Kuzco = {Name: "Kuzco", url: "images/Kuzco.jpg"};
+    const Rocky = {Name: "Rocky", url: "images/rocky.jpg"};
+    const Molly = {Name: "Molly", url: "images/molly.jpg"};
+
+    const pets = [Kisa, Dale, Cosmic, Wellington, Sampson, Chutney, Nermal, Ergun, Meeka, Kuzco, Rocky, Molly];
+    let petdoc = document.getElementById('pets');
+
+    for (i=0; i<pets.length; i++) {
+      let element = document.createElement('DIV');
+      let image = document.createElement('IMG');
+      let petText = document.createElement('H2');
+      image.src = pets[i].url;
+      petText.innerHTML = pets[i].Name;
+      element.className = 'pet';
+      element.appendChild(image);
+      element.appendChild(petText);
+      petdoc.appendChild(element);
+    }
+  </script>
 </html>
