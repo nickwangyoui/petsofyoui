@@ -19,12 +19,12 @@ Step 1: [Fork and download this repo](https://help.github.com/en/articles/fork-a
 Step 2: Once you've downloaded the repo, add your pet picture (with name of pet) to the `/images` folder
 
 Step 3: Add the Snippet below to the index.html file
-```
-<div class="pet">
-  <img src="images/{imagename}.jpg" alt="{Your Pet's Name}" />
-  <h2>{Your Pet's Name}</h2>
-</div>
-```
+
+const `Pet Name` = {Name: "`Pet Name`", url: "images/`image name`.jpg";
+
+and then add the const name to the array
+
+IE `const pets = [Pet1, Pet2, Pet3, {Your Pet Here}];`
 
 Step 4: 
 [Stage your Changes]
@@ -39,6 +39,8 @@ Step 4:
 Step 5: [Open a pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
 
 Step 6: Wait for someone to approve your request and see it live [here!](http://nickwangyoui.github.io/petsofyoui)
+
+Feel free to slack or email me (nick.wang@youi.tv)! or comment below if you have questions :) 
 
 For more information to understand what all this means, here's some [Bonus Reading](https://guides.github.com/introduction/flow/) (Estimated 3-5min)
 
