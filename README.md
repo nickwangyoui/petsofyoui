@@ -20,7 +20,7 @@ Step 2: Once you've downloaded the repo, add your pet picture (with name of pet)
 
 Step 3: Add the Snippet below to the index.html file
 
-const `Pet Name` = {Name: "`Pet Name`", url: "images/`image name`.jpg";
+const `Pet Name` = {Name: "`Pet Name`", url: "images/`image name`.jpg"};
 
 and then add the const name to the array
 
